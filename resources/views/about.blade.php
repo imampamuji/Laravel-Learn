@@ -4,5 +4,5 @@
     <H1>Halaman about</H1>
     <p>{{$name}}</p>
     <p>{{ $email }}</p>
-    <img src="img/{{$image }}" alt="{{ $name }}" width="200px">
+    <img src="img/{{$image }}" alt="{{ $name }}" width="200px" class="img-thumbnail rounded-circle">
 @endsection
