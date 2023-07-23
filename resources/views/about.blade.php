@@ -1,13 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Halaman About</title>
-</head>
-<body>
-    <h1>HALAMAN ABOUT</h1>
-</body>
-</html>
+@extends('layouts.main')
+
+@section('container')
+    <H1>Halaman about</H1>
+    <p>{{$name}}</p>
+    <p>{{ $email }}</p>
+    <img src="img/{{$image }}" alt="{{ $name }}" width="200px">
+@endsection
