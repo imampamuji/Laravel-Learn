@@ -7,7 +7,7 @@
     
         @foreach ($posts as $post)
         <Article class="mb-5">
-            <a href="posts/{{ $post->id }}">
+            <a href="posts/{{ $post->slug }}">
                 <h2>{{ $post->title }}</h2>
             </a>
             {{-- <h6>By: {{ $post["Author"] }}</h6> --}}
